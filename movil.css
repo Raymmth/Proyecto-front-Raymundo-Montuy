@@ -1,0 +1,273 @@
+@media screen and (max-width: 480px) {
+
+
+
+  header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .ancho {
+    width: 423px;
+    margin: auto;
+  }
+
+  nav a {
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    border-bottom: #333 1px solid;
+  }
+
+  nav:hover {
+    padding: 10px;
+    border: 0;
+    width: 100%;
+  }
+
+  .icono_circulo {
+    display: flex;
+    margin-right: 20px;
+    font-size: 30px;
+    background-color: #de55ad;
+    padding: 15px;
+    border-radius: 7px;
+  }
+
+  .cont {
+    display: none;
+    width: 100%;
+  }
+
+  figure img {
+    width: 100%;
+  }
+
+
+  .acordeon {
+    width: 300px;
+    margin: auto;
+  }
+
+  .acor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .acor p {
+    margin: 0;
+  }
+
+  .info {
+    display: none;
+  }
+
+  .acor a {
+    color: white;
+    font-size: 40px;
+  }
+
+  .iconosheader {
+    display: none;
+  }
+
+  .iconosheader2 {
+    display: none;
+  }
+
+  .fondosection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+  }
+
+  .slide {
+    padding: 10px;
+    min-width: 100%;
+  }
+
+  .imagenslide {
+    width: 430px;
+    height: 400px;
+  }
+
+  /*CAROUSEL*/
+  #slide-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px;
+    color: #000;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 33%;
+  }
+
+
+  #slide-container {
+    max-width: 430px;
+    display: flex;
+  }
+
+  .tamanoslide {
+    width: 430px;
+    min-width: 430px;
+  }
+
+  .imagenslide {
+    width: 430px;
+    height: auto;
+  }
+
+  .slide {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .slide1 {
+    background-image: url(img/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 430px;
+  }
+
+  .slide2 {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 430px;
+  }
+
+  .slide3 {
+    background-image: url(img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 430px;
+  }
+
+  .READMORE {
+    padding: 2% 4%;
+    margin-left: 8%;
+    border-radius: 10px;
+    border: 2px black solid;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.466) !important;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background-color: #000;
+  }
+
+  .READMORE:hover {
+    font-family: Roboto;
+    font-weight: 900;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+    background-color: transparent;
+    transition: 0.7s;
+  }
+
+  .tipodeletra {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-size: 20px;
+    color: #dc4daa;
+    font-weight: 900;
+    font-family: Roboto;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .textonormal {
+    color: white;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .sobretexto {
+    position: relative;
+    left: 8%;
+    padding-top: 10%;
+    width: 70%;
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+
+  .forward {
+    position: absolute;
+    top: 45%;
+    right: 0px;
+  }
+
+  .iconosexcercice {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Permite el envoltorio en múltiples filas */
+  }
+
+  .semicirculo {
+    margin: 50px 10px;
+  }
+
+  .otrocolor {
+    width: 100%;
+    background-color: #f3f5f7;
+    padding: 20px 20px 50px 20px;
+    flex-direction: column;
+  }
+
+  .personayplanes {
+    flex-direction: column;
+  }
+
+  .contenedorpersonas {
+    width: 100%;
+  }
+
+  .contenedoracordeon {
+    margin-top: 80px;
+    width: 100%;
+  }
+
+
+
+
+
+
+}
